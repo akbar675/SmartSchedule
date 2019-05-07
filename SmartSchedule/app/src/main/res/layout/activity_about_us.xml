@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundApp"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:id="@+id/univ_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo_unila" />
+
+    <TextView
+        android:id="@+id/univ_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/univ_logo"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:text="Universitas Lampung"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_below="@+id/univ_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="Montserrat"
+        android:gravity="center"
+        android:text="(Kelompok 9 MK Mobile Lanjut)"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <!--Cardview Ketua-->
+    <RelativeLayout
+        android:id="@+id/IdentitasKetua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInfo"
+        android:layout_marginTop="20dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardviewKetua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <ImageView
+                android:id="@+id/FotoKetua"
+                android:layout_centerInParent="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="5dp"
+                android:padding="8dp"
+                android:src="@drawable/ketua" />
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/CardviewKetua">
+
+            <TextView
+                android:id="@+id/NamaKetua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="Mohammad Surya Akbar"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/NPMKetua"
+                android:layout_below="@id/NamaKetua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="1617051077"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/JurusanKetua"
+                android:layout_below="@id/NPMKetua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="montserrat"
+                android:text="Ilmu Komputer 2016"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Cardview Anggota 1-->
+    <RelativeLayout
+        android:id="@+id/IdentitasAnggota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IdentitasKetua"
+        android:layout_marginTop="15dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardviewAnggota1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <ImageView
+                android:id="@+id/FotoAgt1"
+                android:layout_centerInParent="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="5dp"
+                android:padding="8dp"
+                android:src="@drawable/anggota1" />
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/CardviewAnggota1">
+
+            <TextView
+                android:id="@+id/NamaAgt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="Aditya Bimantoro Nurhaqi"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/NPMAgt1"
+                android:layout_below="@id/NamaAgt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="1617051138"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/JurusanAgt1"
+                android:layout_below="@id/NPMAgt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="montserrat"
+                android:text="Ilmu Komputer 2016"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Cardview Anggota 2-->
+    <RelativeLayout
+        android:id="@+id/IdentitasAnggota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IdentitasAnggota1"
+        android:layout_marginTop="15dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardviewAnggota2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <ImageView
+                android:id="@+id/FotoAgt2"
+                android:layout_centerInParent="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="5dp"
+                android:padding="8dp"
+                android:src="@drawable/anggota2" />
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/CardviewAnggota2">
+
+            <TextView
+                android:id="@+id/NamaAgt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="Rachelia Dita Anggraini"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/NPMAgt2"
+                android:layout_below="@id/NamaAgt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="1657051001"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/JurusanAgt2"
+                android:layout_below="@id/NPMAgt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="montserrat"
+                android:text="Ilmu Komputer 2016"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Cardview Anggota 3-->
+    <RelativeLayout
+        android:id="@+id/IdentitasAnggota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IdentitasAnggota2"
+        android:layout_marginTop="15dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardviewAnggota3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <ImageView
+                android:id="@+id/FotoAgt3"
+                android:layout_centerInParent="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="5dp"
+                android:padding="8dp"
+                android:src="@drawable/anggota3" />
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/CardviewAnggota3">
+
+            <TextView
+                android:id="@+id/NamaAgt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="Arief Achmadi Yusra"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/NPMAgt3"
+                android:layout_below="@id/NamaAgt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingVertical="5dp"
+                android:fontFamily="montserrat"
+                android:text="1657051024"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/JurusanAgt3"
+                android:layout_below="@id/NPMAgt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="montserrat"
+                android:text="Ilmu Komputer 2016"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

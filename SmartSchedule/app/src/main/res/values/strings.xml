@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartSchedule</string>
+    <string name="home_label">Home</string>
+    <string name="schedule_label">My Schedule</string>
+    <string name="about_label">About Us</string>
+    <string name="add_label">Add Schedule</string>
+    <string name="edit_label">Edit Schedule</string>
+    <string name="help_label">Help</string>
+    <string name="what_is_smedule">You can use Smedule as your personal Schedule Manager.</string>
+    <string name="credits_url">"We're using all the flat icon in this application from www.flaticon.com and www.myiconfinder.com</string>
+
+</resources>

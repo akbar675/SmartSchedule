@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundApp"
+    tools:context=".HomeActivity">
+
+    <!--Cardview My Schedule-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/cardview3"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="108dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/menu1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/gambar_menu1"
+            android:fontFamily="montserrat"
+            android:text="My Schedule"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gambar_menu1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="15dp"
+            android:padding="8dp"
+            android:src="@drawable/list" />
+    </android.support.v7.widget.CardView>
+
+    <!--Cardview Add Schedule-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_below="@+id/cardview1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/menu2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/gambar_menu2"
+            android:fontFamily="montserrat"
+            android:text="Add Schedule"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gambar_menu2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:src="@drawable/calendar" />
+    </android.support.v7.widget.CardView>
+
+    <!--Cardview Help-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_below="@+id/cardview2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/menu3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/gambar_menu3"
+            android:fontFamily="montserrat"
+            android:text="Help"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gambar_menu3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:src="@drawable/questions" />
+    </android.support.v7.widget.CardView>
+
+    <!--Cardview About Us-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview4"
+        android:layout_below="@+id/cardview3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/menu4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/gambar_menu4"
+            android:fontFamily="montserrat"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gambar_menu4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginLeft="20dp"
+            android:padding="8dp"
+            android:src="@drawable/teamwork" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "71386140261",
+    "firebase_url": "https://smartschedule-23b52.firebaseio.com",
+    "project_id": "smartschedule-23b52",
+    "storage_bucket": "smartschedule-23b52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71386140261:android:7fa746ad2e052db0",
+        "android_client_info": {
+          "package_name": "com.kelompoksembilan.smartschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71386140261-f1tld76hvfc59ifh6ebgoqh84qb46q6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelompoksembilan.smartschedule",
+            "certificate_hash": "5540bf29aa99324be794e957bc1273dadd6340ac"
+          }
+        },
+        {
+          "client_id": "71386140261-au66cb6jnnumrfecnbbttl7b0fqkbg9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhKPnk6e2fCdfHF7_Dwt2rOq4q7ryRsYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71386140261-au66cb6jnnumrfecnbbttl7b0fqkbg9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
